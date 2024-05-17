@@ -1,0 +1,350 @@
+    body {
+    background-color: rgb(184, 0, 0);
+    }
+    .page {
+    background-color: rgb(225, 152, 0);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 40px;
+    height: 700px;
+    border-radius: 10px;
+    }
+    .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 0px;
+    }
+    .right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 650px;
+    }
+    .header-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    }
+    .header-icon1 {
+    width: 20px;
+    height: 20px;
+    transition: 0.15s;
+    border-radius: 12px;
+    }
+    .header-icon1:hover {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    }
+    .header-icon2 {
+    width: 20px;
+    height: 20px;
+    transition: 0.15s;
+    border-radius: 14px;
+    }
+    .header-icon2:hover {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    }
+    .header-icon3 {
+    width: 20px;
+    height: 20px;
+    transition: 0.15s;
+    border-radius: 12px;
+    }
+    .header-icon3:hover {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    }
+    .menu, .event, .about-us {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.15s;
+    }
+    .menu:hover, .event:hover, .about-us:hover {
+    cursor: pointer;
+    color: white;
+    }
+    .left-section {
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .tasty {
+    font-family: caveat;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    }
+    .hamburger-menu {
+    margin-top: 10px;
+    }
+    .hamburger-menu {
+    cursor: pointer;
+    }
+    .food-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    }
+    .reservation-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 400px;
+    }
+    .hello {
+    display: flex;
+    width: 220px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .hello-text {
+    display: flex;
+    font-family: arial;
+    font-size: 15px;
+    }
+    .red-line {
+    display: flex;
+    border: 3px solid rgb(184, 0, 0);
+    width: 40px; 
+    height: 0px;
+    }
+    .welcom {
+    display: flex;
+    flex-direction: row;
+    font-family: sevillana;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    width: 300px;
+    }
+    .reserve-menu-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+    }
+    .reserve-button {
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 12px; padding-right: 12px;
+    background-color: rgb(184, 0, 0);
+    transition: 0.15s;
+    }
+    .reserve-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    }
+    .open-menu-button {
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 12px; padding-right: 12px;
+    background-color: rgb(184, 0, 0);
+    transition: 0.15s;
+    }
+    .open-menu-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    }
+    .photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    }
+    .food-picture {
+    width: 300px;
+    border-radius: 60px;
+    }
+    .food-picture2 {
+    width: 300px;
+    height: 225px;
+    border-radius: 60px;
+    margin-left: 60px;
+    }
+    .ordering-food {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    }
+    .ordering-food-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    }
+    .prev-next {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    }
+    .chef-specialty {
+    display: flex;
+    flex-direction: row;
+    font-family: caveat;
+    font-size: 20px;
+    font-weight: 500;
+    }
+    .left-arrow-icon {
+    border-radius: 12px;
+    width: 20px;
+    height: 20px;
+    transition: 0.15s;
+    }
+    .left-arrow-icon:hover {
+    cursor: pointer;
+    background-color: white;
+    }
+    .right-arrow-icon {
+    border-radius: 12px;
+    width: 20px;
+    height: 20px;
+    transition: 0.15s;
+    }
+    .right-arrow-icon:hover {
+    cursor: pointer;
+    background-color: white;
+    }
+    .line-icon {
+    height: 30px;
+    width: 30px;
+    }
+    .preview {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 400;
+    }
+    .next {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 400;
+    }
+    .foods {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    margin-top: 20px;
+    padding-left: 10px; padding-right: 10px;
+    }
+    .today-food {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(184, 0, 0);
+    width: 250px;
+    border-radius: 10px;
+    padding-right: 5px;
+    }
+    .today-food-main {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 10px;;
+    }
+    .food-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: short stack;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    }
+    .food-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    }
+    .serving-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-family: short stack;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    }
+    .cooktime-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-family: short stack;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    }
+    .line-icon-food {
+    height: 40px;
+    width: 40px;
+    }
+    .serv-text, .serv-text2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    }
+    .cook-text, .cook-text2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    }
+    .today-food-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    }
+    .add-picture, .like-picture {
+    height: 20px;
+    width: 20px;
+    }
+    .add-button, .like-button {
+    background-color: rgb(225, 152, 0);
+    border: none;
+    border-radius: 50px;
+    }
+    .add-button:hover, .like-button:hover {
+    cursor: pointer;
+    background-color: white;
+    }
